@@ -1,0 +1,146 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+.grayHeader {
+	background-color: rgba(0, 0, 0, 10%);
+	border: none;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.bckgrnd {
+	width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 60%);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.graphic {
+	height: 30%;
+	width: 30%;
+	color: white;
+	background-size: cover;
+	background-position: center;
+
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+	text-align: center;
+    background-color: rgba(0, 0, 0, 30%);
+	width: 100%;
+}
+
+.largeYellow {
+	transform: scale(120%);
+	background-color: yellow;
+	margin: 20px;
+}
+
+.yeGraphic {
+	height: 200px;
+	width: 200px;
+	position: absolute;
+
+	left: 70vw;
+	top: 45vh;
+
+	background-image: url("https://i1.sndcdn.com/artworks-y4zpOOFAaVRe4JES-0nWXpw-t500x500.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+/* .navBar {
+	background-color: rgba(0, 0, 0, 10%);
+	border: none;
+	border-radius: 10px;
+	width: 60%;
+	text-align: center;
+} */
+
+.neighborhood {
+	height: 800px;
+	width: 120%;
+	position: relative;
+	border: none;
+	border-radius: 20px;
+	right: 10%;
+	margin-top: 20px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+
+	background-image: url("https://images.unsplash.com/photo-1535082049017-5a7b43f3bcef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
+	background-position: center;
+	background-size: cover;
+}
+
+.elements {
+	background-color: rgba(0, 0, 0, 30%);
+	border: 2px solid white;
+	width: 80%;
+	border-radius: 10px;
+	color: white;
+	text-align: center;
+	font-size: small;
+	margin: 20px;
+}
+
+.cleanLinks {
+	color: white;
+}
+
+button {
+	width: 100px;
+	height: 50px;
+	background-color: white;
+	border: none;
+	border-radius: 10px;
+	margin: 20px;
+}
